@@ -15,15 +15,19 @@
     <header>
         <nav class="nav-container">
             <div class="logo">Guest House</div>
-            <div class="mobile-menu">
+            <div class="mobile-menu" id="mobileMenuBtn">
                 <i class="ri-menu-line"></i>
             </div>
-            <ul class="nav-links">
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#rooms">Rooms</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <!-- Mobile Book Button -->
+                <li class="mobile-only">
+                    <a href="#book" class="mobile-book-btn">Book Now</a>
+                </li>
             </ul>
             <button class="book-btn">Book Now</button>
         </nav>
@@ -71,7 +75,7 @@
                 </div>
             </div>
         </div>
-    </section>m
+    </section>
 
     <!-- Rooms Section -->
     <section id="rooms" class="rooms">
